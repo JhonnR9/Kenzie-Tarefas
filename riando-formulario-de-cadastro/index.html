@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Cadastro</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Faca seu catastro</legend>
+
+           <div><label for="input-text-name">Nome</label></div>
+           <input type="text" name="text-name" id="input-text-name" placeholder="Digite seu nome aqui..." required>
+           <br><br>
+
+           <div><label for="input-email">Email</label></div>
+           <input type="text" name="text-email" id="input-email" placeholder="Digite seu email aqui..." required>
+           <br><br>
+
+           <div><label for="input-email">O que te motivou participar do evento?</label></div>
+           <textarea name="" id="text-area-motivacao" cols="40" rows="8" placeholder="Descreva aqui..."></textarea>
+           <br><br>
+
+           <div><label for="select-module">Selecione seu módulo:</label></div>
+           
+           <select id="select-module" name="instrutor">
+               <option hidden>Escolher módulo</option>
+               <option value="m1">M1</option>
+               <option value="m2">M2</option>
+               <option value="m3">M3</option>
+               <option value="m4">M4</option>
+               <option value="m5">M5</option>
+               <option value="m6">M6</option>
+           </select>
+           <br><br>
+
+           <div><label for="input-password">Cadastre uma senha</label></div>
+           <input type="password" name="text-password" id="input-password" placeholder="Digite sua senha..." required>
+           <br><br>
+
+           <div><label for="input-password-repeat">Comfirme a senha</label></div>
+           <input type="password" name="text-password" id="input-password" placeholder="Repeta sua senha..." required>
+           <br><br><br>
+
+
+           <section>
+            <p>Selecione uma turma</p>
+            <input type="radio" name="notify" id="radio-t17" value="yes">
+            <label for="">Sim</label>
+
+            <input type="radio" name="notify" id="radio-t18" value="nos">
+            <label for="">Não</label>
+            <br><br>
+
+            <input type="submit" value="Cadastrar">
+            <br><br>
+
+        </section>
+
+        </fieldset>
+    </form>
+</body>
+</html>
